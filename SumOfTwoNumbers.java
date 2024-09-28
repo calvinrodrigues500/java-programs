@@ -5,10 +5,10 @@ class SumOfTwoNumbers {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.print("Enter the first number");
+		System.out.print("Enter the first number: ");
 		int numOne = scanner.nextInt();
 
-		System.out.print("Enter the second number");
+		System.out.print("Enter the second number: ");
 		int numTwo = scanner.nextInt();
 
 		int sum = numOne + numTwo;
